@@ -1,0 +1,16 @@
+.department-list-container {
+  text-align: left;
+}
+
+.department-container {
+  text-align: left;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 2px 2px lightgray;
+  background: lighten(lightgray, 10);
+
+  &.selected {
+    background: lightgray;
+    box-shadow: 2px 2px grey;
+  }
+}

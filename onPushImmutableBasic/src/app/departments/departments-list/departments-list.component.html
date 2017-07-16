@@ -1,0 +1,9 @@
+<ng-container class="department-list-container">
+  <div *ngFor="let department of departments | async"
+  class="department-container"
+  [ngClass]="{selected: selectedDpt ===  department.name}"
+  (click)="departmentClick(department.name)">
+    <div>Dept Name - {{department.name}}</div>
+    <div>Dept Hod - {{department.hod}}</div>
+  </div>
+</ng-container>

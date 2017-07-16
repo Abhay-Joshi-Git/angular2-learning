@@ -1,0 +1,8 @@
+.main-list-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.dpt-container {
+  flex: 0.4;
+}
