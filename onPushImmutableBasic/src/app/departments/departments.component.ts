@@ -18,15 +18,6 @@ export class DepartmentsComponent implements OnInit {
 
   ngOnInit() {
     this.departmentsData = this.dptService.getDepartments();
-    // this.departmentsData.subscribe((data) => {
-    //   console.log(data);
-    //})
-    // this.departmentsData = Observable.of([
-    //   {
-    //     name: 'sdf',
-    //     hod: 'dsd'
-    //   }
-    // ]);
   }
 
 }
