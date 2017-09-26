@@ -10,6 +10,7 @@ import { Department } from '../department';
 })
 export class DepartmentsListComponent implements OnInit {
   @Input() public departments: Observable<Array<Department>>;
+  ///@Output() 
   public selectedDpt: string;
 
   constructor() { }
