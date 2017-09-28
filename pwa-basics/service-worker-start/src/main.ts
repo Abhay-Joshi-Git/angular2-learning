@@ -11,6 +11,6 @@ if (environment.production) {
 }
 
 platformBrowserDynamic().bootstrapModule(AppModule).then(() => {
-  navigator.serviceWorker.register('/worker-basic.min.js');
+  // navigator.serviceWorker.register('/worker-basic.min.js');
 });
 

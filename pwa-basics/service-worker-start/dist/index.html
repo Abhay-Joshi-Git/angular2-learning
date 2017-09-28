@@ -10,7 +10,10 @@
   <my-app class="loading">
     Loading...
   </my-app>
-  <script type="text/javascript" src="polyfills.bundle.js"></script>
-  <script type="text/javascript" src="main.bundle.js"></script>
+  <script>
+    navigator.serviceWorker.register('service-worker.js');
+  </script>
+  <script type="text/javascript" src="./polyfills.bundle.js"></script>
+  <script type="text/javascript" src="./main.bundle.js"></script>
 </body>
 </html>
